@@ -1,0 +1,9 @@
+/* Styles for the output container */
+#output {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+  }
+  

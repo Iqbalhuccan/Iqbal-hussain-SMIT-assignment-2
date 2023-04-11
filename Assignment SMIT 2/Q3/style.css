@@ -1,0 +1,14 @@
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 5%;
+    background-color: aquamarine;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+  }
+  body{
+    background-color: rgb(244, 233, 253);
+  }
+  

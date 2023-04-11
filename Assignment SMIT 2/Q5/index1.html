@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Change Background Color</title>
+    <style>
+      body {
+        background-color: lightgray;
+      }
+      div {
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        border: 1px solid black;
+        margin: 50px auto;
+        background-position: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+      }
+    </style>
+  </head>
+  <body>
+    <div id="myDiv">This is my div</div>
+    <button onclick="changeBackgroundColor(document.getElementById('myDiv'), 'red')">Change to red</button>
+    <button onclick="changeBackgroundColor(document.getElementById('myDiv'), 'blue')">Change to blue</button>
+    <script>
+      function changeBackgroundColor(element, color) {
+        element.style.backgroundColor = color;
+      }
+    </script>
+  </body>
+</html>
